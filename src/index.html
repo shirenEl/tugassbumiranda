@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> 
+<link rel="stylesheet" href="output.css">
+  <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <!--navbar-->
+  <nav class="bg-blue-950 text-white px-10 py-4 flex items-center">
+
+  <!-- Logo -->
+  <div class="flex items-center gap-4">
+    <img src="asset/FitOn fitness app logo.png"  class="w-14 h-14 rounded-full object-cover">
+    <h1 class=" font-bold text-4xl">Fit on</h1>
+  </div>
+
+  <!-- Right Menu -->
+  <div class="ml-auto flex items-center gap-6 ">
+    
+    <!-- Bell -->
+  <i class="fa-solid fa-bell text-yellow-400 text-2xl"></i>
+
+    <!-- Guest -->
+    <div class="flex items-center gap-5">
+     <h1 class=" font-normal text-3xl">Guest</h1>
+      <img src="asset/WhatsApp Image 2026-03-01 at 05.00.31.jpeg"    class="w-14 h-14 rounded-full object-cover">
+
+  </div>
+
+ </nav>
+  <!-- Hero Section -->
+  <section class="px-16 py-20">
+    <div class="grid grid-cols-2 items-center">
+      
+      <!-- Text -->
+     <div class="space-y-6">
+  <h1 class="text-7xl font-bold text-gray-700">
+    Siap Jadi Versi Terbaikmu?
+  </h1>
+
+  <p class="font-normal text-4xl text-gray-600">
+    Daftar sekarang dan mulai transformasi tubuhmu hari ini.
+  </p>
+
+  <button class="bg-blue-950 text-white px-6 py-3 rounded-lg shadow-md hover:bg-blue-900 text-3xl">
+    Get Started
+  </button>
+</div>
+      <!-- Image Card -->
+      <div class="flex justify-center ">
+        <!-- <div class="bg-gray-100 p-6 rounded-lg shadow-md"> -->
+          <img src="asset/image.png" alt="gym" width="350">
+        </div>
+      </div>
+
+    </div>
+  </section>
+<!-- Toggle Button -->
+<div class="flex justify-center my-8">
+  <button 
+    id="toggleBtn"
+    class="w-14 h-14 border border-black rounded-lg text-2xl flex items-center justify-center"
+  >
+    ^
+  </button>
+</div>
+
+<!-- Problem Section -->
+<div id="emojiSection" class="px-10">
+
+  <h2 class="text-center text-3xl font-semibold mb-8">Problem ?</h2>
+
+  <div class="grid grid-cols-3 gap-4 mb-16">
+
+    <div class="border p-6 text-center">
+      <img src="asset/ECry.jpg" class="w-16 mx-auto mb-3">
+      <p>Don't know where to start?</p>
+    </div>
+
+    <div class="border p-6 text-center">
+      <img src="asset/EConfused.jpg" class="w-16 mx-auto mb-3">
+      <p>Workout plans feel confusing?</p>
+    </div>
+
+    <div class="border p-6 text-center">
+      <img src="asset/EBored.jpg" class="w-16 mx-auto mb-3">
+      <p>Feeling bored and losing consistency?</p>
+    </div>
+
+  </div>
+
+</div>
+
+<!-- Visual Preview -->
+<section class="bg-white py-16">
+  <div class="max-w-6xl mx-auto border-4 border-blue-500 p-8">
+
+    <div class="text-center mb-10">
+      <h2 class="text-3xl font-bold text-gray-700">Visual Preview</h2>
+      <p class="text-gray-600">Make your account, make your fit body.</p>
+    </div>
+
+    <div class="grid grid-cols-2 gap-10">
+
+      <!-- LEFT -->
+      <div class="space-y-8">
+
+        <div class="border rounded-xl p-4">
+          <img src="asset/Screenshot 2026-03-23 163208.png" class="mx-auto">
+        </div>
+
+        <div>
+          <h3 class="text-2xl font-bold">Atur dan Kelola Jadwal Latihanmu</h3>
+          <p>Susun jadwal workout sesuai waktumu.</p>
+        </div>
+
+        <div class="border p-4">
+          <div class=" grid-cols-3 gap-3">
+            <img src="asset/Screenshot 2026-03-23 163027.png" class="mx-auto">
+          </div>
+        </div>
+
+        <div>
+          <h3 class="text-2xl font-bold">
+            Ikuti Sesi Latihan Terpandu
+          </h3>
+          <p>Berlatih dengan panduan jelas.</p>
+        </div>
+
+      </div>
+
+      <!-- RIGHT -->
+      <div class="space-y-8">
+
+        <div>
+          <h3 class="text-2xl font-bold">
+            Pantau Perkembanganmu
+          </h3>
+          <p>Lihat peningkatan performa latihanmu.</p>
+        </div>
+
+        <div class="border rounded-xl p-4">
+          <img src="asset/Screenshot 2026-03-23 163414.png">
+        </div>
+
+        <div>
+          <h3 class="text-2xl font-bold">
+            Dapatkan Rekomendasi Latihan
+          </h3>
+          <p>Temukan program workout yang tepat.</p>
+        </div>
+
+        <div class="border rounded-xl p-4">
+          <video controls class="w-full">
+            <source src="asset/workout.mp4" type="video/mp4">
+          </video>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Bottom Recommendation -->
+    <div class="mt-12 bg-blue-950 rounded-xl px-8 py-6 flex justify-between items-center">
+
+      <div class="flex items-center gap-4">
+        <img src="asset/Screenshot 2026-03-23 180213.png" class="w-20">
+
+        <div class="text-white">
+          <p class="text-sm text-gray-300">Recommended</p>
+          <h3 class="text-2xl font-bold">Hand: Biseps</h3>
+          <p class="text-sm">Try Now !</p>
+        </div>
+      </div>
+
+      <button 
+  id="openModal"
+  class="bg-white px-8 py-3 rounded-full font-semibold"
+>
+  Start Workout
+</button>
+
+    </div>
+
+  </div>
+</section>
+  <script>
+const toggleBtn = document.getElementById('toggleBtn');
+const emojiSection = document.getElementById('emojiSection');
+
+toggleBtn.addEventListener('click', () => {
+  emojiSection.classList.toggle('hidden');
+
+  toggleBtn.textContent =
+    emojiSection.classList.contains('hidden') ? 'v' : '^';
+});
+</script>
+
+</body>
+</html>

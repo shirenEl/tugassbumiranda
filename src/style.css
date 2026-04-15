@@ -1,0 +1,12 @@
+.bell-logo {
+  width: 2rem;
+  height: 2rem;
+  color: #FDBF2D;
+  filter: drop-shadow(0 2px 4px rgba(253, 191, 45, 0.3));
+  transition: all 0.3s ease;
+}
+
+.bell-logo:hover {
+  transform: scale(1.1) rotate(5deg);
+  filter: drop-shadow(0 4px 8px rgba(253, 191, 45, 0.5));
+}
